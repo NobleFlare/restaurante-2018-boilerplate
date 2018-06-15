@@ -3,14 +3,14 @@ body{
 }
 
 .home-section {
-    height:130vh;
-    min-height: 300px;
-    max-height: 600px;
+    height:100vh;
+    display: flex;
+    align-items: center;
     background: url('../img/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .affix{
@@ -23,8 +23,11 @@ body{
     color:#ffffff;
     margin-bottom:20px;
 }
+#reservation-section{
+  background: #eeeeee;
+}
 .navbar-brand h1{
-  font-size: 16px
+  font-size: 16px;
   margin:0;
 }
 
